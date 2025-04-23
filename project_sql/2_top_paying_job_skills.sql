@@ -16,7 +16,8 @@ WITH top_paying_jobs AS (
     FROM job_postings_fact
     LEFT JOIN company_dim ON job_postings_fact.company_id = company_dim.company_id
     WHERE
-        job_location = 'Anywhere' AND
+        (job_location = 'Portugal' OR
+        job_location = 'Anywhere') AND
         job_title_short = 'Data Analyst' AND
         salary_year_avg IS NOT NULL
     ORDER BY
@@ -46,6 +47,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 552322,
     "job_title": "Associate Director- Data Insights",
     "salary_year_avg": "255829.5",
+    "job_posted_date": "2023-06-18 16:03:12",
     "company_name": "AT&T",
     "skills": "sql"
   },
@@ -53,6 +55,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 552322,
     "job_title": "Associate Director- Data Insights",
     "salary_year_avg": "255829.5",
+    "job_posted_date": "2023-06-18 16:03:12",
     "company_name": "AT&T",
     "skills": "python"
   },
@@ -60,6 +63,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 552322,
     "job_title": "Associate Director- Data Insights",
     "salary_year_avg": "255829.5",
+    "job_posted_date": "2023-06-18 16:03:12",
     "company_name": "AT&T",
     "skills": "r"
   },
@@ -67,6 +71,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 552322,
     "job_title": "Associate Director- Data Insights",
     "salary_year_avg": "255829.5",
+    "job_posted_date": "2023-06-18 16:03:12",
     "company_name": "AT&T",
     "skills": "azure"
   },
@@ -74,6 +79,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 552322,
     "job_title": "Associate Director- Data Insights",
     "salary_year_avg": "255829.5",
+    "job_posted_date": "2023-06-18 16:03:12",
     "company_name": "AT&T",
     "skills": "databricks"
   },
@@ -81,6 +87,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 552322,
     "job_title": "Associate Director- Data Insights",
     "salary_year_avg": "255829.5",
+    "job_posted_date": "2023-06-18 16:03:12",
     "company_name": "AT&T",
     "skills": "aws"
   },
@@ -88,6 +95,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 552322,
     "job_title": "Associate Director- Data Insights",
     "salary_year_avg": "255829.5",
+    "job_posted_date": "2023-06-18 16:03:12",
     "company_name": "AT&T",
     "skills": "pandas"
   },
@@ -95,6 +103,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 552322,
     "job_title": "Associate Director- Data Insights",
     "salary_year_avg": "255829.5",
+    "job_posted_date": "2023-06-18 16:03:12",
     "company_name": "AT&T",
     "skills": "pyspark"
   },
@@ -102,6 +111,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 552322,
     "job_title": "Associate Director- Data Insights",
     "salary_year_avg": "255829.5",
+    "job_posted_date": "2023-06-18 16:03:12",
     "company_name": "AT&T",
     "skills": "jupyter"
   },
@@ -109,6 +119,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 552322,
     "job_title": "Associate Director- Data Insights",
     "salary_year_avg": "255829.5",
+    "job_posted_date": "2023-06-18 16:03:12",
     "company_name": "AT&T",
     "skills": "excel"
   },
@@ -116,6 +127,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 552322,
     "job_title": "Associate Director- Data Insights",
     "salary_year_avg": "255829.5",
+    "job_posted_date": "2023-06-18 16:03:12",
     "company_name": "AT&T",
     "skills": "tableau"
   },
@@ -123,6 +135,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 552322,
     "job_title": "Associate Director- Data Insights",
     "salary_year_avg": "255829.5",
+    "job_posted_date": "2023-06-18 16:03:12",
     "company_name": "AT&T",
     "skills": "power bi"
   },
@@ -130,6 +143,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 552322,
     "job_title": "Associate Director- Data Insights",
     "salary_year_avg": "255829.5",
+    "job_posted_date": "2023-06-18 16:03:12",
     "company_name": "AT&T",
     "skills": "powerpoint"
   },
@@ -137,6 +151,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 99305,
     "job_title": "Data Analyst, Marketing",
     "salary_year_avg": "232423.0",
+    "job_posted_date": "2023-12-05 20:00:40",
     "company_name": "Pinterest Job Advertisements",
     "skills": "sql"
   },
@@ -144,6 +159,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 99305,
     "job_title": "Data Analyst, Marketing",
     "salary_year_avg": "232423.0",
+    "job_posted_date": "2023-12-05 20:00:40",
     "company_name": "Pinterest Job Advertisements",
     "skills": "python"
   },
@@ -151,6 +167,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 99305,
     "job_title": "Data Analyst, Marketing",
     "salary_year_avg": "232423.0",
+    "job_posted_date": "2023-12-05 20:00:40",
     "company_name": "Pinterest Job Advertisements",
     "skills": "r"
   },
@@ -158,6 +175,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 99305,
     "job_title": "Data Analyst, Marketing",
     "salary_year_avg": "232423.0",
+    "job_posted_date": "2023-12-05 20:00:40",
     "company_name": "Pinterest Job Advertisements",
     "skills": "hadoop"
   },
@@ -165,6 +183,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 99305,
     "job_title": "Data Analyst, Marketing",
     "salary_year_avg": "232423.0",
+    "job_posted_date": "2023-12-05 20:00:40",
     "company_name": "Pinterest Job Advertisements",
     "skills": "tableau"
   },
@@ -172,6 +191,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 1021647,
     "job_title": "Data Analyst (Hybrid/Remote)",
     "salary_year_avg": "217000.0",
+    "job_posted_date": "2023-01-17 00:17:23",
     "company_name": "Uclahealthcareers",
     "skills": "sql"
   },
@@ -179,6 +199,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 1021647,
     "job_title": "Data Analyst (Hybrid/Remote)",
     "salary_year_avg": "217000.0",
+    "job_posted_date": "2023-01-17 00:17:23",
     "company_name": "Uclahealthcareers",
     "skills": "crystal"
   },
@@ -186,6 +207,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 1021647,
     "job_title": "Data Analyst (Hybrid/Remote)",
     "salary_year_avg": "217000.0",
+    "job_posted_date": "2023-01-17 00:17:23",
     "company_name": "Uclahealthcareers",
     "skills": "oracle"
   },
@@ -193,6 +215,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 1021647,
     "job_title": "Data Analyst (Hybrid/Remote)",
     "salary_year_avg": "217000.0",
+    "job_posted_date": "2023-01-17 00:17:23",
     "company_name": "Uclahealthcareers",
     "skills": "tableau"
   },
@@ -200,6 +223,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 1021647,
     "job_title": "Data Analyst (Hybrid/Remote)",
     "salary_year_avg": "217000.0",
+    "job_posted_date": "2023-01-17 00:17:23",
     "company_name": "Uclahealthcareers",
     "skills": "flow"
   },
@@ -207,6 +231,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 168310,
     "job_title": "Principal Data Analyst (Remote)",
     "salary_year_avg": "205000.0",
+    "job_posted_date": "2023-08-09 11:00:01",
     "company_name": "SmartAsset",
     "skills": "sql"
   },
@@ -214,6 +239,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 168310,
     "job_title": "Principal Data Analyst (Remote)",
     "salary_year_avg": "205000.0",
+    "job_posted_date": "2023-08-09 11:00:01",
     "company_name": "SmartAsset",
     "skills": "python"
   },
@@ -221,6 +247,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 168310,
     "job_title": "Principal Data Analyst (Remote)",
     "salary_year_avg": "205000.0",
+    "job_posted_date": "2023-08-09 11:00:01",
     "company_name": "SmartAsset",
     "skills": "go"
   },
@@ -228,6 +255,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 168310,
     "job_title": "Principal Data Analyst (Remote)",
     "salary_year_avg": "205000.0",
+    "job_posted_date": "2023-08-09 11:00:01",
     "company_name": "SmartAsset",
     "skills": "snowflake"
   },
@@ -235,6 +263,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 168310,
     "job_title": "Principal Data Analyst (Remote)",
     "salary_year_avg": "205000.0",
+    "job_posted_date": "2023-08-09 11:00:01",
     "company_name": "SmartAsset",
     "skills": "pandas"
   },
@@ -242,6 +271,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 168310,
     "job_title": "Principal Data Analyst (Remote)",
     "salary_year_avg": "205000.0",
+    "job_posted_date": "2023-08-09 11:00:01",
     "company_name": "SmartAsset",
     "skills": "numpy"
   },
@@ -249,6 +279,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 168310,
     "job_title": "Principal Data Analyst (Remote)",
     "salary_year_avg": "205000.0",
+    "job_posted_date": "2023-08-09 11:00:01",
     "company_name": "SmartAsset",
     "skills": "excel"
   },
@@ -256,6 +287,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 168310,
     "job_title": "Principal Data Analyst (Remote)",
     "salary_year_avg": "205000.0",
+    "job_posted_date": "2023-08-09 11:00:01",
     "company_name": "SmartAsset",
     "skills": "tableau"
   },
@@ -263,6 +295,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 168310,
     "job_title": "Principal Data Analyst (Remote)",
     "salary_year_avg": "205000.0",
+    "job_posted_date": "2023-08-09 11:00:01",
     "company_name": "SmartAsset",
     "skills": "gitlab"
   },
@@ -270,6 +303,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 731368,
     "job_title": "Director, Data Analyst - HYBRID",
     "salary_year_avg": "189309.0",
+    "job_posted_date": "2023-12-07 15:00:13",
     "company_name": "Inclusively",
     "skills": "sql"
   },
@@ -277,6 +311,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 731368,
     "job_title": "Director, Data Analyst - HYBRID",
     "salary_year_avg": "189309.0",
+    "job_posted_date": "2023-12-07 15:00:13",
     "company_name": "Inclusively",
     "skills": "python"
   },
@@ -284,6 +319,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 731368,
     "job_title": "Director, Data Analyst - HYBRID",
     "salary_year_avg": "189309.0",
+    "job_posted_date": "2023-12-07 15:00:13",
     "company_name": "Inclusively",
     "skills": "azure"
   },
@@ -291,6 +327,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 731368,
     "job_title": "Director, Data Analyst - HYBRID",
     "salary_year_avg": "189309.0",
+    "job_posted_date": "2023-12-07 15:00:13",
     "company_name": "Inclusively",
     "skills": "aws"
   },
@@ -298,6 +335,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 731368,
     "job_title": "Director, Data Analyst - HYBRID",
     "salary_year_avg": "189309.0",
+    "job_posted_date": "2023-12-07 15:00:13",
     "company_name": "Inclusively",
     "skills": "oracle"
   },
@@ -305,6 +343,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 731368,
     "job_title": "Director, Data Analyst - HYBRID",
     "salary_year_avg": "189309.0",
+    "job_posted_date": "2023-12-07 15:00:13",
     "company_name": "Inclusively",
     "skills": "snowflake"
   },
@@ -312,6 +351,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 731368,
     "job_title": "Director, Data Analyst - HYBRID",
     "salary_year_avg": "189309.0",
+    "job_posted_date": "2023-12-07 15:00:13",
     "company_name": "Inclusively",
     "skills": "tableau"
   },
@@ -319,6 +359,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 731368,
     "job_title": "Director, Data Analyst - HYBRID",
     "salary_year_avg": "189309.0",
+    "job_posted_date": "2023-12-07 15:00:13",
     "company_name": "Inclusively",
     "skills": "power bi"
   },
@@ -326,6 +367,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 731368,
     "job_title": "Director, Data Analyst - HYBRID",
     "salary_year_avg": "189309.0",
+    "job_posted_date": "2023-12-07 15:00:13",
     "company_name": "Inclusively",
     "skills": "sap"
   },
@@ -333,6 +375,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 731368,
     "job_title": "Director, Data Analyst - HYBRID",
     "salary_year_avg": "189309.0",
+    "job_posted_date": "2023-12-07 15:00:13",
     "company_name": "Inclusively",
     "skills": "jenkins"
   },
@@ -340,6 +383,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 731368,
     "job_title": "Director, Data Analyst - HYBRID",
     "salary_year_avg": "189309.0",
+    "job_posted_date": "2023-12-07 15:00:13",
     "company_name": "Inclusively",
     "skills": "bitbucket"
   },
@@ -347,6 +391,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 731368,
     "job_title": "Director, Data Analyst - HYBRID",
     "salary_year_avg": "189309.0",
+    "job_posted_date": "2023-12-07 15:00:13",
     "company_name": "Inclusively",
     "skills": "atlassian"
   },
@@ -354,6 +399,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 731368,
     "job_title": "Director, Data Analyst - HYBRID",
     "salary_year_avg": "189309.0",
+    "job_posted_date": "2023-12-07 15:00:13",
     "company_name": "Inclusively",
     "skills": "jira"
   },
@@ -361,6 +407,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 731368,
     "job_title": "Director, Data Analyst - HYBRID",
     "salary_year_avg": "189309.0",
+    "job_posted_date": "2023-12-07 15:00:13",
     "company_name": "Inclusively",
     "skills": "confluence"
   },
@@ -368,6 +415,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 310660,
     "job_title": "Principal Data Analyst, AV Performance Analysis",
     "salary_year_avg": "189000.0",
+    "job_posted_date": "2023-01-05 00:00:25",
     "company_name": "Motional",
     "skills": "sql"
   },
@@ -375,6 +423,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 310660,
     "job_title": "Principal Data Analyst, AV Performance Analysis",
     "salary_year_avg": "189000.0",
+    "job_posted_date": "2023-01-05 00:00:25",
     "company_name": "Motional",
     "skills": "python"
   },
@@ -382,6 +431,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 310660,
     "job_title": "Principal Data Analyst, AV Performance Analysis",
     "salary_year_avg": "189000.0",
+    "job_posted_date": "2023-01-05 00:00:25",
     "company_name": "Motional",
     "skills": "r"
   },
@@ -389,6 +439,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 310660,
     "job_title": "Principal Data Analyst, AV Performance Analysis",
     "salary_year_avg": "189000.0",
+    "job_posted_date": "2023-01-05 00:00:25",
     "company_name": "Motional",
     "skills": "git"
   },
@@ -396,6 +447,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 310660,
     "job_title": "Principal Data Analyst, AV Performance Analysis",
     "salary_year_avg": "189000.0",
+    "job_posted_date": "2023-01-05 00:00:25",
     "company_name": "Motional",
     "skills": "bitbucket"
   },
@@ -403,6 +455,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 310660,
     "job_title": "Principal Data Analyst, AV Performance Analysis",
     "salary_year_avg": "189000.0",
+    "job_posted_date": "2023-01-05 00:00:25",
     "company_name": "Motional",
     "skills": "atlassian"
   },
@@ -410,6 +463,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 310660,
     "job_title": "Principal Data Analyst, AV Performance Analysis",
     "salary_year_avg": "189000.0",
+    "job_posted_date": "2023-01-05 00:00:25",
     "company_name": "Motional",
     "skills": "jira"
   },
@@ -417,6 +471,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 310660,
     "job_title": "Principal Data Analyst, AV Performance Analysis",
     "salary_year_avg": "189000.0",
+    "job_posted_date": "2023-01-05 00:00:25",
     "company_name": "Motional",
     "skills": "confluence"
   },
@@ -424,6 +479,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 1749593,
     "job_title": "Principal Data Analyst",
     "salary_year_avg": "186000.0",
+    "job_posted_date": "2023-07-11 16:00:05",
     "company_name": "SmartAsset",
     "skills": "sql"
   },
@@ -431,6 +487,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 1749593,
     "job_title": "Principal Data Analyst",
     "salary_year_avg": "186000.0",
+    "job_posted_date": "2023-07-11 16:00:05",
     "company_name": "SmartAsset",
     "skills": "python"
   },
@@ -438,6 +495,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 1749593,
     "job_title": "Principal Data Analyst",
     "salary_year_avg": "186000.0",
+    "job_posted_date": "2023-07-11 16:00:05",
     "company_name": "SmartAsset",
     "skills": "go"
   },
@@ -445,6 +503,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 1749593,
     "job_title": "Principal Data Analyst",
     "salary_year_avg": "186000.0",
+    "job_posted_date": "2023-07-11 16:00:05",
     "company_name": "SmartAsset",
     "skills": "snowflake"
   },
@@ -452,6 +511,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 1749593,
     "job_title": "Principal Data Analyst",
     "salary_year_avg": "186000.0",
+    "job_posted_date": "2023-07-11 16:00:05",
     "company_name": "SmartAsset",
     "skills": "pandas"
   },
@@ -459,6 +519,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 1749593,
     "job_title": "Principal Data Analyst",
     "salary_year_avg": "186000.0",
+    "job_posted_date": "2023-07-11 16:00:05",
     "company_name": "SmartAsset",
     "skills": "numpy"
   },
@@ -466,6 +527,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 1749593,
     "job_title": "Principal Data Analyst",
     "salary_year_avg": "186000.0",
+    "job_posted_date": "2023-07-11 16:00:05",
     "company_name": "SmartAsset",
     "skills": "excel"
   },
@@ -473,6 +535,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 1749593,
     "job_title": "Principal Data Analyst",
     "salary_year_avg": "186000.0",
+    "job_posted_date": "2023-07-11 16:00:05",
     "company_name": "SmartAsset",
     "skills": "tableau"
   },
@@ -480,6 +543,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 1749593,
     "job_title": "Principal Data Analyst",
     "salary_year_avg": "186000.0",
+    "job_posted_date": "2023-07-11 16:00:05",
     "company_name": "SmartAsset",
     "skills": "gitlab"
   },
@@ -487,6 +551,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 387860,
     "job_title": "ERM Data Analyst",
     "salary_year_avg": "184000.0",
+    "job_posted_date": "2023-06-09 08:01:04",
     "company_name": "Get It Recruit - Information Technology",
     "skills": "sql"
   },
@@ -494,6 +559,7 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 387860,
     "job_title": "ERM Data Analyst",
     "salary_year_avg": "184000.0",
+    "job_posted_date": "2023-06-09 08:01:04",
     "company_name": "Get It Recruit - Information Technology",
     "skills": "python"
   },
@@ -501,8 +567,8 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
     "job_id": 387860,
     "job_title": "ERM Data Analyst",
     "salary_year_avg": "184000.0",
+    "job_posted_date": "2023-06-09 08:01:04",
     "company_name": "Get It Recruit - Information Technology",
     "skills": "r"
   }
 ]
-*/
